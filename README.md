@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./images/readmelogo.PNG" width=60%>
+  <img src="readmelogo.png" width=60%>
 </p>
 
 <p align="center">_______________</p>
