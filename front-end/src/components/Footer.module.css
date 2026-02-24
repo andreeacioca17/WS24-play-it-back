@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap");
+
+.footer {
+  background-color: #242424;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+.footerContent {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.footer a {
+  font-family: Geo;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(0, 169, 165);
+  text-decoration: inherit;
+  font-family: "Geo", serif;
+}
+
+.footer a:hover {
+  color: rgb(184, 0, 174);
+}
+
+/* deleting disks*/
+.footer ul {
+  list-style-type: none;
+  margin-right: 25px;
+}
+
+.footer li {
+  display: inline;
+  float: right;
+  padding: 10px;
+}

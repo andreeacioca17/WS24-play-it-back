@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap");
+
+.header a {
+  font-family: Geo;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(0, 169, 165);
+  text-decoration: inherit;
+}
+
+.header a:hover {
+  color: rgb(184, 0, 174);
+}
+
+/* deleting disks*/
+.header ul {
+  list-style-type: none;
+  padding-bottom: 40px;
+  margin-right: 25px;
+}
+
+.header li {
+  display: inline;
+  float: right;
+  padding: 10px;
+}
+
+.logo {
+  width: 50%;
+  display: block;
+  margin: auto;
+  padding: 20px;
+}

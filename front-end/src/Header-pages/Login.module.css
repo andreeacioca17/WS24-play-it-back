@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap");
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  font-family: Kanit;
+  font-size: 15px;
+  height: 430px;
+  width: 300px;
+  background-color: #2786b5;
+  border-radius: 10px;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.container form {
+  width: 200px;
+  display: block;
+  margin: 10px auto;
+}
+
+.container label {
+  display: block;
+  color: white;
+  margin-bottom: 3px;
+}
+
+.container input {
+  display: block;
+  width: 200px;
+  max-width: 100%;
+  padding: 4px;
+  border: 2px, solid, rgb(152, 77, 217);
+  border-radius: 5px;
+  outline: none;
+  color: black;
+}
+
+.container h1 {
+  color: white;
+  font-family: Geo;
+  text-align: center;
+  font-size: 50px;
+  font-weight: lighter;
+  margin: 25px auto 0px auto;
+}
+
+.container button {
+  display: block;
+  margin: 30px auto;
+  font-family: Geo;
+  font-size: 25px;
+  padding: 7px 20px;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+}
+
+.container p {
+  text-align: center;
+}
+
+.link {
+  padding-left: 10px;
+  color: white;
+}
+
+.link:hover {
+  color: rgb(184, 0, 174);
+}
+
+.containerLogout {
+  font-family: Kanit;
+  text-align: center;
+  font-size: 35px;
+  height: 200px;
+  width: 300px;
+  background-color: #2786b5;
+  border-radius: 10px;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.containerLogout button {
+  display: block;
+  margin: 30px auto;
+  font-family: Geo;
+  font-size: 25px;
+  padding: 7px 20px;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+}
+
+/*
+#242424;  gray
+rgb(184, 0, 174); pink
+rgb(0, 169, 165); blue
+
+*/
